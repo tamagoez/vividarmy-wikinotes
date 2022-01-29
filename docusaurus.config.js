@@ -22,6 +22,7 @@ module.exports = {
         },
         {to: 'union/', label: '連盟', position: 'left'},
         {to: 'event/', label: 'イベント', position: 'left'},
+        {to: 'blog/', label: '編集後記', position: 'right'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
