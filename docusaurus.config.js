@@ -23,6 +23,7 @@ module.exports = {
         {to: 'union/', label: '連盟', position: 'left'},
         {to: 'event/', label: 'イベント', position: 'left'},
         {to: 'blog/', label: '編集後記', position: 'right'},
+        {to: 'help/', label: 'ヘルプ', position: 'right'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -126,6 +127,19 @@ module.exports = {
         editUrl: "https://github.com/tamagoez/wikinotes-vividarmy/edit/main",
         editCurrentVersion: true,
         sidebarPath: require.resolve('./event/sidebars.js'),
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'help',
+        path: 'help',
+        routeBasePath: 'help',
+        editUrl: "https://github.com/tamagoez/wikinotes-vividarmy/edit/main",
+        editCurrentVersion: true,
+        sidebarPath: require.resolve('./help/sidebars.js'),
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
       },
