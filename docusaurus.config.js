@@ -20,8 +20,8 @@ module.exports = {
           label: '個人',
           position: 'left',
         },
-        {to: 'union', label: '連盟', position: 'left'},
-        {to: 'event', label: 'イベント', position: 'left'},
+        {to: 'union/', label: '連盟', position: 'left'},
+        {to: 'event/', label: 'イベント', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
