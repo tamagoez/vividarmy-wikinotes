@@ -1,16 +1,16 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'VividArmy WikiNotes',
+  tagline: 'Wiki&Notes of vividarmy',
+  url: 'https://wikinotes-vividarmy.vercel.app/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'tamagoez', // Usually your GitHub org/user name.
+  projectName: 'wikinotes-vividarmy', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'VividArmy WikiNotes',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'vividarmy-wikinotes Logo',
         src: 'img/logo.svg',
       },
       links: [
@@ -48,16 +48,8 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: '元祖',
+              href: 'https://jcap-board.vercel.app',
             },
           ],
         },
@@ -65,17 +57,13 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'NUL',
+              href: 'about:blank',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} tamagoez(たまご), 抜け殻P`,
     },
   },
   presets: [
@@ -86,13 +74,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/tamagoez/wikinotes-vividarmy/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/tamagoez/wikinotes-vividarmy/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
