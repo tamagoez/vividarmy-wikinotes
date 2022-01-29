@@ -88,4 +88,32 @@ module.exports = {
       },
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'union',
+        path: 'union',
+        routeBasePath: 'union',
+        editUrl: "https://github.com/tamagoez/wikinotes-vividarmy/edit/main",
+        editCurrentVersion: true,
+        sidebarPath: require.resolve('./union/sidebars.js'),
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'personal',
+        path: 'personal',
+        routeBasePath: 'personal',
+        editUrl: "https://github.com/tamagoez/personal/edit/main",
+        editCurrentVersion: true,
+        sidebarPath: require.resolve('./personal/sidebars.js'),
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+      },
+    ],
+  ],
 };
