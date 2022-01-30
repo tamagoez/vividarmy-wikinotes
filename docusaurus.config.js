@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'tamagoez', // Usually your GitHub org/user name.
-  projectName: 'wikinotes-vividarmy', // Usually your repo name.
+  projectName: 'vividarmy-vividarmy', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'VividArmy WikiNotes',
@@ -26,7 +26,7 @@ module.exports = {
         {to: 'blog/', label: '編集後記', position: 'right'},
         {to: 'help/', label: 'ヘルプ', position: 'right'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/tamagoez/vividarmy-wikinotes',
           label: 'GitHub',
           position: 'right',
         },
@@ -39,12 +39,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              label: 'NUL',
+              to: 'about:blank',
             },
           ],
         },
@@ -78,13 +74,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/tamagoez/wikinotes-vividarmy/edit/master/website/',
+            'https://github.com/tamagoez/vividarmy-wikinotes/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/tamagoez/wikinotes-vividarmy/edit/master/website/blog/',
+            'https://github.com/tamagoez/vividarmy-wikinotes/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -99,7 +95,7 @@ module.exports = {
         id: 'union',
         path: 'union',
         routeBasePath: 'union',
-        editUrl: "https://github.com/tamagoez/wikinotes-vividarmy/edit/main",
+        editUrl: "https://github.com/tamagoez/vividarmy-wikinotes/edit/main",
         editCurrentVersion: true,
         sidebarPath: require.resolve('./union/sidebars.js'),
         showLastUpdateAuthor: true,
@@ -112,7 +108,7 @@ module.exports = {
         id: 'personal',
         path: 'personal',
         routeBasePath: 'personal',
-        editUrl: "https://github.com/tamagoez/wikinotes-vividarmy/edit/main",
+        editUrl: "https://github.com/tamagoez/vividarmy-wikinotes/edit/main",
         editCurrentVersion: true,
         sidebarPath: require.resolve('./personal/sidebars.js'),
         showLastUpdateAuthor: true,
@@ -125,7 +121,7 @@ module.exports = {
         id: 'event',
         path: 'event',
         routeBasePath: 'event',
-        editUrl: "https://github.com/tamagoez/wikinotes-vividarmy/edit/main",
+        editUrl: "https://github.com/tamagoez/vividarmy-wikinotes/edit/main",
         editCurrentVersion: true,
         sidebarPath: require.resolve('./event/sidebars.js'),
         showLastUpdateAuthor: true,
@@ -138,7 +134,7 @@ module.exports = {
         id: 'help',
         path: 'help',
         routeBasePath: 'help',
-        editUrl: "https://github.com/tamagoez/wikinotes-vividarmy/edit/main",
+        editUrl: "https://github.com/tamagoez/vividarmy-wikinotes/edit/main",
         editCurrentVersion: true,
         sidebarPath: require.resolve('./help/sidebars.js'),
         showLastUpdateAuthor: true,
@@ -151,7 +147,7 @@ module.exports = {
         id: 'server',
         path: 'server',
         routeBasePath: 'server',
-        editUrl: "https://github.com/tamagoez/wikinotes-vividarmy/edit/main",
+        editUrl: "https://github.com/tamagoez/vividarmy-wikinotes/edit/main",
         editCurrentVersion: true,
         sidebarPath: require.resolve('./server/sidebars.js'),
         showLastUpdateAuthor: true,
