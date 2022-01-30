@@ -6,6 +6,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'tamagoez', // Usually your GitHub org/user name.
   projectName: 'vividarmy-vividarmy', // Usually your repo name.
+  onBrokenLinks: 'warn',
   themeConfig: {
     navbar: {
       title: 'VividArmy WikiNotes',
