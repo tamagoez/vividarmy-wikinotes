@@ -7,8 +7,8 @@ import 'simplemde/dist/simplemde.min.css'
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
+  const simplemde = new SimpleMDE()
   return (
-    const simplemde = new SimpleMDE()
   );
 }
 
