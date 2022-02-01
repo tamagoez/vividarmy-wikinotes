@@ -23,6 +23,7 @@ module.exports = {
         },
         {to: 'union/', label: '連盟', position: 'left'},
         {to: 'event/', label: 'イベント', position: 'left'},
+        {to: 'system/', label: 'システム', position: 'left'},
         {to: 'server/', label: 'サーバー', position: 'right'},
         {to: 'blog/', label: '編集後記', position: 'right'},
         {to: 'help/', label: 'ヘルプ', position: 'right'},
