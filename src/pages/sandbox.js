@@ -8,6 +8,9 @@ import EasyMDE from 'easymde';
 function Home() {
   // const simplemde = new SimpleMDE()
   var easyMDE = new EasyMDE();
+  return (
+    <textarea />
+    );
 }
 
 export default SandBox;
