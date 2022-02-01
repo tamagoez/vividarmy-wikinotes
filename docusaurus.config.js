@@ -120,12 +120,12 @@ module.exports = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'event',
-        path: 'event',
-        routeBasePath: 'event',
+        id: 'system',
+        path: 'system',
+        routeBasePath: 'system',
         editUrl: "https://github.com/tamagoez/vividarmy-wikinotes/edit/main",
         editCurrentVersion: true,
-        sidebarPath: require.resolve('./event/sidebars.js'),
+        sidebarPath: require.resolve('./system/sidebars.js'),
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
       },
