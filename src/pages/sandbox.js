@@ -3,7 +3,11 @@ import React from 'react';
 // import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 // import SimpleMDE from 'simplemde'
 // import 'simplemde/dist/simplemde.min.css'
-import EasyMDE from 'easymde';
+
+// To prevent navigator is not defined
+import dynamic from "next/dynamic";
+// import EasyMDE from 'easymde';
+const EasyMDE = dynamic(() => import("easymde"), { ssr: false });
 
 function Home() {
   // const simplemde = new SimpleMDE()
