@@ -2,7 +2,7 @@ module.exports = {
     top: [
       'index',
       {
-        サーバー一覧: [{type: 'ref', id: 's1707/index', label: 'S1707'}],
+        'サーバー ページ': [{type: 'ref', id: 's1707/index', label: 'S1707'}],
       },
     ],
 
