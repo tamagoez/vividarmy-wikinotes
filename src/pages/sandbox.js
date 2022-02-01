@@ -3,7 +3,7 @@ import React from 'react';
 // import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 // import SimpleMDE from 'simplemde'
 // import 'simplemde/dist/simplemde.min.css'
-import EasyMDE from 'easyMDE';
+import EasyMDE from 'easymde';
 
 function Home() {
   // const simplemde = new SimpleMDE()
