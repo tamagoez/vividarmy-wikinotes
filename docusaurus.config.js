@@ -87,6 +87,15 @@ module.exports = {
           customCss: require.resolve('./src/css/custom.css'),
         },
       },
+      [
+        '@docusaurus/preset-classic',
+        {
+          googleAnalytics: {
+            trackingID: 'G-0BPT14EM25',
+            anonymizeIP: true,
+          },
+        },
+      ],
     ],
   ],
   plugins: [
