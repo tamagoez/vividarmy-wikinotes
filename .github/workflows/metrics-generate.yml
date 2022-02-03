@@ -12,6 +12,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: "static/img/metrics.svg"
           # Your GitHub token
           # The following scopes are required:
           #  - public_access (default scope)
@@ -29,7 +30,7 @@ jobs:
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_screenshot: yes
-          plugin_pagespeed_url: vividarmy-wikinotes.vercel.app
+          plugin_pagespeed_url: "https://vividarmy-wikinotes.vercel.app"
           plugin_repositories: yes
           plugin_repositories_affiliations: owner
           plugin_repositories_batch: 100
