@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - '**.jpg'
+      - '**.jpeg'
       - '**.png'
       - '**.webp'
 jobs:
@@ -17,7 +18,7 @@ jobs:
       - name: Compress Images
         uses: calibreapp/image-actions@master
         with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          githubToken: ${{ secrets.METRICS_TOKEN }}
           jpegQuality: "80"
           pngQuality: "80"
           webpQuality: "80"
