@@ -1,5 +1,6 @@
-const FontAwesomeIcon = require('@fortawesome/react-fontawesome');
-require('@fortawesome/fontawesome-svg-core');
+// const FontAwesomeIcon = require('@fortawesome/react-fontawesome');
+// require('@fortawesome/fontawesome-svg-core');
+// <FontAwesomeIcon icon="fa-solid fa-bell" />
 
 module.exports = {
   title: 'VividArmy WikiNotes',
@@ -14,7 +15,7 @@ module.exports = {
     announcementBar: {
       id: 'Beta',
       content:
-        '<FontAwesomeIcon icon="fa-solid fa-bell" /><a target="_blank" rel="noopener noreferrer" href="#"><b>現在開発中です。是非あなたのご意見をお聞かせください!</b>  [' + process.env.VERCEL_GIT_COMMIT_MESSAGE + ' - ' + process.env.VERCEL_GIT_COMMIT_SHA.substr( 0, 7 ) + ']</a>',
+        '<a target="_blank" rel="noopener noreferrer" href="#"><b>現在開発中です。是非あなたのご意見をお聞かせください!</b>  [' + process.env.VERCEL_GIT_COMMIT_MESSAGE + ' - ' + process.env.VERCEL_GIT_COMMIT_SHA.substr( 0, 7 ) + ']</a>',
       backgroundColor: '#fafbfc',
       textColor: '#091E42',
       isCloseable: false,
@@ -27,6 +28,7 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
+        {to: 'q-and-a/', label: 'Q&A', position: 'left'},
         {
           to: 'personal/',
           activeBasePath: 'personal',
@@ -179,6 +181,22 @@ module.exports = {
         sidebarPath: require.resolve('./server/sidebars.js'),
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'q-and-a',
+        path: 'q-and-a',
+        routeBasePath: 'q-and-a',
+        editUrl: "https://github.com/tamagoez/vividarmy-wikinotes/edit/main",
+        editCurrentVersion: true,
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+        blogSidebarCount: 'ALL',
+        blogSidebarTitle: 'Q & A　一覧',
+        postsPerPage: 20,
+        blogTitle: 'Q & A',
       },
     ],
   ],
