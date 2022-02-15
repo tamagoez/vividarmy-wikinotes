@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 module.exports = {
   title: 'VividArmy WikiNotes',
   tagline: 'Wiki&Notes of vividarmy',
