@@ -1,4 +1,5 @@
 const FontAwesomeIcon = require('@fortawesome/react-fontawesome');
+require('@fortawesome/fontawesome-svg-core');
 
 module.exports = {
   title: 'VividArmy WikiNotes',
