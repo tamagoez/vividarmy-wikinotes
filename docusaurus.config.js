@@ -190,7 +190,7 @@ module.exports = {
         path: 'q-and-a',
         routeBasePath: 'q-and-a',
         editUrl: "https://github.com/tamagoez/vividarmy-wikinotes/edit/main",
-        editCurrentVersion: true,
+        // editCurrentVersion: true,
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
         blogSidebarCount: 'ALL',
