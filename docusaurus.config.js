@@ -8,6 +8,14 @@ module.exports = {
   projectName: 'vividarmy-vividarmy', // Usually your repo name.
   onBrokenLinks: 'warn',
   themeConfig: {
+    announcementBar: {
+      id: 'Beta',
+      content:
+        '現在開発中です({process.env.VERCEL_GIT_COMMIT_SHA} - ({process.env.VERCEL_GIT_COMMIT_MESSAGE}))<br \>是非ご意見をお聞かせください!<a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+      backgroundColor: '#fafbfc',
+      textColor: '#091E42',
+      isCloseable: false,
+    },
     navbar: {
       title: 'VividArmy WikiNotes',
       logo: {
