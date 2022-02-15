@@ -15,7 +15,7 @@ module.exports = {
     announcementBar: {
       id: 'Beta',
       content:
-        '<a target="_blank" rel="noopener noreferrer" href="https://forms.gle/KHyVxxHzGG19oPqt5"><b>現在開発中です。是非あなたのご意見をお聞かせください!</b>  [' + process.env.VERCEL_GIT_COMMIT_MESSAGE + ' - ' + process.env.VERCEL_GIT_COMMIT_SHA.substr( 0, 7 ) + ']</a>',
+        '<a target="_blank" rel="noopener noreferrer" href="https://forms.gle/tbEG2UxjZFwvwzYF7"><b>現在開発中です。是非あなたのご意見をお聞かせください!</b>  [' + process.env.VERCEL_GIT_COMMIT_MESSAGE + ' - ' + process.env.VERCEL_GIT_COMMIT_SHA.substr( 0, 7 ) + ']</a>',
       backgroundColor: '#fafbfc',
       textColor: '#091E42',
       isCloseable: false,
