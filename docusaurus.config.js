@@ -11,7 +11,7 @@ module.exports = {
     announcementBar: {
       id: 'Beta',
       content:
-        '<i class="fa-solid fa-bell"></i><a target="_blank" rel="noopener noreferrer" href="#"><b>現在開発中です。是非あなたのご意見をお聞かせください!</b>  [' + process.env.VERCEL_GIT_COMMIT_SHA.substr( 0, 7 ) + ' - ' + process.env.VERCEL_GIT_COMMIT_MESSAGE + ']</a>',
+        '<FontAwesomeIcon icon="fa-solid fa-bell" /><a target="_blank" rel="noopener noreferrer" href="#"><b>現在開発中です。是非あなたのご意見をお聞かせください!</b>  [' + process.env.VERCEL_GIT_COMMIT_SHA.substr( 0, 7 ) + ' - ' + process.env.VERCEL_GIT_COMMIT_MESSAGE + ']</a>',
       backgroundColor: '#fafbfc',
       textColor: '#091E42',
       isCloseable: false,
