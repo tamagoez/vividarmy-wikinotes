@@ -8,13 +8,6 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Wiki</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
-    description: (
-      <>
-        Docusaurusで構築されたWikiです。
-      </>
-    ),
   },
 ];
 
