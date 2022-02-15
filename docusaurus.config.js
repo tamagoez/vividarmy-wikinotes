@@ -73,7 +73,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} tamagoez(たまご), 抜け殻P`,
+      copyright: `<a href="https://vividarmy-wikinotes.vercel.app/help/LICENSE">Copyright © ${new Date().getFullYear()} たまご(tamagoez), 抜け殻P, 白にゃんこ, もしゃ</a>`,
     },
   },
   presets: [
