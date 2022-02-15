@@ -102,7 +102,7 @@ module.exports = {
         },
         googleAnalytics: {
           trackingID: 'UA-219257980-1',
-          anonymizeIP: true,
+          anonymizeIP: false,
         },
       },
     ],
