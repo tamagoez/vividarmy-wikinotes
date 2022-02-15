@@ -1,5 +1,6 @@
+const FontAwesomeIcon = require('@fortawesome/react-fontawesome');
+
 module.exports = {
-  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome',
   title: 'VividArmy WikiNotes',
   tagline: 'Wiki&Notes of vividarmy',
   url: 'https://wikinotes-vividarmy.vercel.app/',
