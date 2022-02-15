@@ -18,6 +18,7 @@ module.exports = {
     },
     navbar: {
       title: 'VividArmy WikiNotes',
+      hideOnScroll: true,
       logo: {
         alt: 'vividarmy-wikinotes Logo',
         src: 'img/logo.svg',
