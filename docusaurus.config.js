@@ -106,6 +106,15 @@ module.exports = {
         },
       },
     ],
+    [
+      '@docusaurus/preset-classic',
+      {
+        sitemap: {
+          changefreq: 'hourly',
+          priority: 0.5,
+        },
+      },
+    ],
   ],
   plugins: [
     [
