@@ -102,12 +102,12 @@ module.exports = {
         },
         gtag: {
           trackingID: '141789564',
-          anonymizeIP: true,
+          anonymizeIP: false,
         },
         sitemap: {
           changefreq: 'hourly',
           priority: 0.5,
-          trailingSlash: false,
+          trailingSlash: undefined,
         },
       },
     ],
