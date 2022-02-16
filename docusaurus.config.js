@@ -104,11 +104,6 @@ module.exports = {
           trackingID: 'UA-219257980-1',
           anonymizeIP: false,
         },
-      },
-    ],
-    [
-      '@docusaurus/preset-classic',
-      {
         sitemap: {
           changefreq: 'hourly',
           priority: 0.5,
