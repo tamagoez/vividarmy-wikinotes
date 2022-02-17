@@ -44,7 +44,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('help/explore')}>
-              覗く
+              探索する 🧭
             </Link>
           </div>
         </div>
