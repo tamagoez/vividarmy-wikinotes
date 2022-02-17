@@ -1,4 +1,4 @@
-Thanks for `Docusaurus v2`, `Vercel`, `docSearch(byAlgolia)` and also **you**!.
+Thanks for `Docusaurus v2`, `Vercel` and also **you**!.
 
 ↩︎ ↪︎
 
