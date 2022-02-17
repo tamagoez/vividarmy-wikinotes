@@ -5,7 +5,7 @@
 module.exports = {
   title: 'VividArmy WikiNotes',
   tagline: 'Wiki&Notes of vividarmy',
-  url: 'https://wikinotes-vividarmy.vercel.app/',
+  url: 'https://vividarmy-wikinotes.vercel.app/',
   baseUrl: '/',
   trailingSlash: false,
   favicon: 'img/favicon.ico',
