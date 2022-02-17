@@ -10,7 +10,7 @@ module.exports = {
   trailingSlash: false,
   favicon: 'img/favicon.ico',
   organizationName: 'tamagoez', // Usually your GitHub org/user name.
-  projectName: 'vividarmy-vividarmy', // Usually your repo name.
+  projectName: 'vividarmy-wikinotes', // Usually your repo name.
   onBrokenLinks: 'warn',
   themeConfig: {
     announcementBar: {
