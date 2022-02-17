@@ -102,7 +102,11 @@ module.exports = {
           customCss: require.resolve('./src/css/custom.css'),
         },
         gtag: {
-          trackingID: 'G-YVYMRCSYEP',
+          trackingID: 'G-H51WGDPNGY',
+          anonymizeIP: false,
+        },
+        googleAnalytics: {
+          trackingID: 'UA-220738076-1',
           anonymizeIP: false,
         },
         sitemap: {
