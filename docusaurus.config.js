@@ -7,7 +7,7 @@ module.exports = {
   tagline: 'Wiki&Notes of vividarmy',
   url: 'https://wikinotes-vividarmy.vercel.app/',
   baseUrl: '/',
-  trailingSlash: false,
+  trailingSlash: true,
   favicon: 'img/favicon.ico',
   organizationName: 'tamagoez', // Usually your GitHub org/user name.
   projectName: 'vividarmy-vividarmy', // Usually your repo name.
