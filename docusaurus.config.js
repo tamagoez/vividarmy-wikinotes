@@ -16,7 +16,7 @@ module.exports = {
   projectName: 'vividarmy-wikinotes', // Usually your repo name.
   onBrokenLinks: 'warn',
   themeConfig: {
-    metadata: [{name: 'keywords', content: 'vividarmy, wiki'}],
+    metadata: [{name: 'keywords', content: 'vividarmy, topwar, ビビッドアーミー, トップウォー, wiki, note, wikinotes, ウィキノーツ'}],
     announcementBar: {
       id: 'Beta',
       content:
