@@ -45,11 +45,6 @@ module.exports = {
         {to: 'server/', label: 'サーバー', position: 'right'},
         {to: 'blog/', label: '編集後記', position: 'right'},
         {to: 'help/', label: 'ヘルプ', position: 'right'},
-        {
-          href: 'https://github.com/tamagoez/vividarmy-wikinotes',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     footer: {
