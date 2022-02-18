@@ -12,9 +12,9 @@ const features = [
     link: 'q-and-a',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
-      "
-        他にはない、SNSのタイムラインのようにサクサク見られるWiki<br \>筆者たちが日々記事を更新しています
-      "
+      <>
+        "他にはない、SNSのタイムラインのようにサクサク見られるWiki<br \>筆者たちが日々記事を更新しています"
+      </>
     ),
   },
   {
