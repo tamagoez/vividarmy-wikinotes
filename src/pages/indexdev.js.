@@ -11,11 +11,7 @@ const features = [
     title: <>Q & A</>,
     link: 'q-and-a',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
-    description: (
-      <>
-        "他にはない、SNSのタイムラインのようにサクサク見られるWiki<br \>筆者たちが日々記事を更新しています"
-      </>
-    ),
+    description: "他にはない、SNSのタイムラインのようにサクサク見られるWiki<br \>筆者たちが日々記事を更新しています",
   },
   {
     title: <>個人</>,
