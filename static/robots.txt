@@ -1,4 +1,5 @@
 User-agent: *
-Allow: /
+Allow: *
+
 Sitemap: http://vividarmy-wikinotes.vercel.app/sitemap.xml
 Sitemap: https://vividarmy-wikinotes.vercel.app/sitemap.xml
