@@ -52,7 +52,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        サーバーに関することについて説明しています<br/サーバーや連盟などサーバーに関するページはここから
+        サーバーに関することについて説明しています<br/>サーバーや連盟などサーバーに関するページはここから
       </>
     ),
   },
