@@ -11,7 +11,10 @@ const features = [
     title: <>Q & A</>,
     link: 'q-and-a',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
-    description: "他にはない、SNSのタイムラインのようにサクサク見られるWiki<br \>筆者たちが日々記事を更新しています",
+    description: 
+      <>
+        他にはない、SNSのタイムラインのようにサクサク見られるWiki<br/>筆者たちが日々記事を更新しています
+      </>
   },
   {
     title: <>個人</>,
@@ -19,7 +22,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        主に基地内のことについて説明しています<br \>基地内施設やレベル上げなど個人に関するページはここから
+        主に基地内のことについて説明しています<br/>基地内施設やレベル上げなど個人に関するページはここから
       </>
     ),
   },
@@ -29,7 +32,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        連盟に関することについて説明しています<br \>連盟施設や遺跡など連盟に関するページはここから
+        連盟に関することについて説明しています<br/>連盟施設や遺跡など連盟に関するページはここから
       </>
     ),
   },
@@ -39,7 +42,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        ゲームのシステムについて説明しています<br \>イベントや英雄などシステムに関するページはここから
+        ゲームのシステムについて説明しています<br/>イベントや英雄などシステムに関するページはここから
       </>
     ),
   },
@@ -49,7 +52,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        サーバーに関することについて説明しています<br \>サーバーや連盟などサーバーに関するページはここから
+        サーバーに関することについて説明しています<br/サーバーや連盟などサーバーに関するページはここから
       </>
     ),
   },
@@ -59,7 +62,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        とりあえず迷ったらここ!<br \>わからないことがあったらこちらを参照してみてください
+        とりあえず迷ったらここ!<br/>わからないことがあったらこちらを参照してみてください
       </>
     ),
   },
@@ -69,7 +72,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        他にはない、SNSのタイムラインのような編集後記<br \>筆者たちが日々まったり呟いて言います<br \>もしかしたら他のページよりも有益な情報が得られるかも...
+        他にはない、SNSのタイムラインのような編集後記<br/>筆者たちが日々まったり呟いて言います<br/>もしかしたら他のページよりも有益な情報が得られるかも...
       </>
     ),
   },
