@@ -101,11 +101,11 @@ function Home() {
   return (
     <Layout
       title={`トップ`}
-      description="WikiNotesであなたの好きをもっと探索しよう">
+      description="あなたの好きをもっと探索しよう">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">Wikiなのにちょっと抜けている<br \>Noteなのにちょっと本気<br \>WikiNotesを探索しよう!</p>
+          <p className="hero__subtitle">Wikiなのにちょっと抜けている<br/Noteなのにちょっと本気<br/>WikiNotesを探索しよう!</p>
           <div className={styles.buttons}>
             <Link
               className={classnames(
