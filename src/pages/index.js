@@ -82,7 +82,7 @@ function Feature({imageUrl, title, description, link}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <Link to={link}>
-    <div className={classnames('col col--lg-4 col--xs-6', styles.feature)}>
+    <div className={classnames('col col--lg-3 col--xs-12', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
