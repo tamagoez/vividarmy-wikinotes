@@ -14,7 +14,14 @@ const features = [
     description: 
       <>
         他にはない、SNSのタイムラインのようにサクサク見られるWiki<br/>筆者たちが日々記事を更新しています
-      </>
+    <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>      </>
   },
   {
     title: <>個人</>,
@@ -81,17 +88,14 @@ const features = [
 function Feature({imageUrl, title, description, link}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <Link to={link}>
-    <div className={classnames('col col--lg-3 col--xs-12', styles.feature)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
-      <h2>{title}</h2>
-      <p>{description}</p>
+    <div class="card" style="width: 18rem;">
+    <img src={imgUrl} class="card-img-top" alt={title}>
+    <div class="card-body">
+      <h5 class="card-title">{title}</h5>
+      <p class="card-text">{description}</p>
+      <a href={link} class="btn btn-primary">探索しに行く</a>
     </div>
-    </Link>
+  </div>
   );
 }
 
