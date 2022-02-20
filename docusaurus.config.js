@@ -51,7 +51,7 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Menu',
           items: [
             {
               label: 'NUL',
@@ -60,20 +60,20 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Link',
           items: [
-            {
-              label: '元祖',
-              href: 'https://jcap-board.vercel.app',
-            },
           ],
         },
         {
           title: 'More',
           items: [
             {
-              label: 'NUL',
-              href: 'about:blank',
+              label: 'WikiNotes',
+              href: 'https://wikinotes.vercel.app',
+            },
+            {
+              label: '元祖',
+              href: 'https://jcap-board.vercel.app',
             },
           ],
         },
