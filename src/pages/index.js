@@ -83,13 +83,13 @@ function Feature({imageUrl, title, description, link}) {
   return (
     <Link to={link}>
     <div className={classnames('row')}>
-    <div className={classnames('col col--md-6', styles.feature)}>
+    <div className={classnames('col col--md-4', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p>{description}</p>
     </div>
     </div>
