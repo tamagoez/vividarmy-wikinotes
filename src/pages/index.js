@@ -81,14 +81,17 @@ const features = [
 function Feature({imageUrl, title, description, link}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div class="card" style="width: 18rem;">
-    <img src={imgUrl} class="card--img-top" alt={title}/>
-    <div class="card--body">
-      <h5 class="card--title">{title}</h5>
-      <p class="card--text">{description}</p>
-      <a href={link} class="btn btn--primary">探索しに行く</a>
+    <Link to={link}>
+    <div className={classnames('col col--lg-3 col--xs-12', styles.feature)}>
+      {imgUrl && (
+        <div className="text--center">
+          <img className={styles.featureImage} src={imgUrl} alt={title} />
+        </div>
+      )}
+      <h2>{title}</h2>
+      <p>{description}</p>
     </div>
-  </div>
+    </Link>
   );
 }
 
