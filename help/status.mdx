@@ -3,10 +3,9 @@ id: status
 title: ステータス
 ---
 
-import toppage_rank from 'https://raw.githubusercontent.com/tamagoez/scrape-wikinotes/main/api/top_rank.txt'
 
 ## 掲載順位(Google)[トップページ]
-<toppage_rank/>
+return (request('https://raw.githubusercontent.com/tamagoez/scrape-wikinotes/main/api/top_rank.txt'))
 
 <!--
 import Image from '@theme/IdealImage';
