@@ -150,13 +150,6 @@ module.exports = {
         sidebarPath: require.resolve('./personal/sidebars.js'),
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
-        lastVersion: 'wiki',
-        versions: {
-          wiki: {
-            label: 'wiki',
-            path: 'wiki',
-          },
-        },
       },
     ],
     [
