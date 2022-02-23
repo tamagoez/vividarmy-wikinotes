@@ -88,8 +88,8 @@ function Feature({imageUrl, title, description, link}) {
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3 className={classnames(styles.featureHeading)}>{features.title}</h3>
-      <p>{features.description}</p>
+      <h3 className={classnames(styles.featureHeading)}>{title}</h3>
+      <p className="padding-horiz--md">{description}</p>
     </div>
     </Link>
   );
