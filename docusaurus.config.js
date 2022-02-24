@@ -207,8 +207,7 @@ module.exports = {
         blogTitle: 'Q&A',
       },
     ],
-  ],
-  [
+    [
       '@docusaurus/plugin-pwa',
       {
         debug: true,
