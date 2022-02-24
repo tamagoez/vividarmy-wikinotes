@@ -1,0 +1,43 @@
+{
+  "short_name": "VividArmyWN",
+  "name": "VividArmy WikiNotes",
+  "icons": [
+    {
+      "src": "/img/logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/img/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "shortcuts": [
+    {
+      "name": "VividArmy WikiNotes Top",
+      "short_name": "Top",
+      "description": "Lead you to top page",
+      "url": "/?source=pwa",
+      "icons": [{ "src": "/img/logo.svg", "sizes": "512x512" }]
+    },
+  ],
+  "description": "WikiNotes of VividArmy",
+  "screenshots": [
+    {
+      "src": "/img/logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ]
+}
