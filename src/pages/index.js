@@ -101,7 +101,7 @@ function Home() {
   return (
     <Layout
       title={`トップ`}
-      description="あなたの好きをもっと探索しよう">
+      description="WikiNotesであなたの好きをもっと探索しよう。Wikiのように詳しく、NoteのようにわかりやすいWikiをお試しください!">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
