@@ -109,7 +109,7 @@ module.exports = {
           anonymizeIP: false,
         },
         sitemap: {
-          changefreq: 'hourly',
+          changefreq: 'dayly',
           priority: 0.5,
         },
       },
