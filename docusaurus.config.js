@@ -119,6 +119,8 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/tamagoez/vividarmy-wikinotes/edit/master/website/blog/',
+          blogTitle: '編集後記',
+          blogDescription: '筆者たちが日々まったりと呟いています',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
