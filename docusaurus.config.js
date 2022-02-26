@@ -38,7 +38,7 @@ module.exports = {
       searchPagePath: 'search',
 
       //
-    }      
+    },   
     metadata: [{name: 'keywords', content: 'vividarmy, topwar, ビビッドアーミー, トップウォー, wiki, note, wikinotes, ウィキノーツ'}],
     announcementBar: {
       id: 'Beta',
