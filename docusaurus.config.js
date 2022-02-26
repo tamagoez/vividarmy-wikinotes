@@ -16,6 +16,29 @@ module.exports = {
   projectName: 'vividarmy-wikinotes', // Usually your repo name.
   onBrokenLinks: 'warn',
   themeConfig: {
+    algolia: {
+      // The application ID provided by Algolia
+      appId: 'Z9HX6O4TF7',
+
+      // Public API key: it is safe to commit it
+      apiKey: '7bd1b14f0d07b68a1e7beaf6969099e5',
+
+      indexName: 'VividArmy WikiNotes',
+
+      // Optional: see doc section below
+      contextualSearch: true,
+
+      // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      // externalUrlRegex: 'external\\.com|domain\\.com',
+
+      // Optional: Algolia search parameters
+      searchParameters: {},
+
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      searchPagePath: 'search',
+
+      //
+    }      
     metadata: [{name: 'keywords', content: 'vividarmy, topwar, ビビッドアーミー, トップウォー, wiki, note, wikinotes, ウィキノーツ'}],
     announcementBar: {
       id: 'Beta',
