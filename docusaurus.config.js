@@ -101,7 +101,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `<a href="https://vividarmy-wikinotes.vercel.app/help/LICENSE">Copyright © ${new Date().getFullYear()} たまご(tamagoez), 抜け殻P, 白にゃんこ, もしゃ</a>`,
+      copyright: `<a href="https://vividarmy-wikinotes.vercel.app/help/LICENSE">Copyright © ${new Date().getFullYear()} たまご(tamagoez), 抜け殻P, 白にゃんこ, もしゃ, メア姉</a>`,
     },
   },
   presets: [
