@@ -39,8 +39,8 @@
 }
 
 .balloon5 .faceicon img{
-  width: 120%;
-  height: auto;
+  width: auto;
+  height: '120%';
   border: solid 3px #d7ebfe;
   border-radius: 50%;
 }
