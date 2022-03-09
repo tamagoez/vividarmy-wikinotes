@@ -1,0 +1,16 @@
+/* https://hide.ac/articles/UAKFxm4B1 */
+
+.h-parent{width: 100%; min-height: 100px; margin: 30px 0;}
+.h-parent:after{clear:both;}
+.h-parent .h-left{float: left; margin-right: -90px;}
+.h-parent .h-right{float: right; margin-left: -90px;}
+.h-parent img{border-radius:40px; width: 80px; height:80px; object-fit:cover;}
+.body-left, .body-right{display: inline-block; position: relative; padding: 17px 13px; border-radius: 12px; text-align:left;}
+.bparent-left{text-align:left;}
+.bparent-right{text-align:right;}
+.body-left{margin: 10px 0 0 105px;}
+.body-right{margin: 10px 105px 0 0;}
+.tri-left, .tri-right{display: inline-block; position: absolute; top: 18px; border: 12px solid transparent;}
+.tri-left{left: -24px;}
+.tri-right{right: -24px;}
+.iconname{width:80px; font-size:60%; text-align:center; margin-top:-6px;}
