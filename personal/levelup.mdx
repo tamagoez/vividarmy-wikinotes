@@ -1,6 +1,10 @@
-import {Redirect} from '@docusaurus/router';
-const Home = () => {
-  return <Redirect to="/personal/wikinote/levelup" />;
+import BrowserOnly from '@docusaurus/BrowserOnly';
+const MyComponent = () => {
+  return (
+    <BrowserOnly>
+      {() => {window.location.replace('/personal/wikinote/levelup')}}
+    </BrowserOnly>
+  );
 };
 
 ## リダイレクトページ
