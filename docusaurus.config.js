@@ -16,6 +16,7 @@ module.exports = {
   projectName: 'vividarmy-wikinotes', // Usually your repo name.
   onBrokenLinks: 'warn',
   themeConfig: {
+    hideableSidebar: true,
     algolia: {
       // The application ID provided by Algolia
       appId: 'Z9HX6O4TF7',
